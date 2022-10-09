@@ -1,0 +1,32 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  margin: 200px auto;
+  direction: rtl;
+}
+.container #note-list {
+  list-style-type: decimal;
+}
+.container #form {
+  width: 50%;
+}
+.container #form #note {
+  width: 100%;
+  border: gray 1px solid;
+}
+.container #form #submit {
+  width: 100%;
+  outline: none;
+  background-color: rgb(97, 97, 234);
+}
+
+.remove-btn {
+  float: left;
+  color: red;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */
