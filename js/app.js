@@ -98,3 +98,8 @@ function loadContentFromLocalStorage() {
       
     });
 }
+
+function logMyAge() {
+  console.log(26)
+}
+ logMyAge()
