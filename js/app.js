@@ -100,6 +100,6 @@ function loadContentFromLocalStorage() {
 }
 
 function logMyAge() {
-  window.alert('hello')
+  window.alert('bye')
 }
  logMyAge()
