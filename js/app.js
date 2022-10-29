@@ -99,7 +99,14 @@ function loadContentFromLocalStorage() {
     });
 }
 
-function logMyAge() {
-  window.alert('bye')
+function compounCalculate (amount,percent,repetition) {
+    for ( let i = 0; i < repetition; i++) {
+      amount +=  amount*percent
+  
+    }
+
+    console.log(amount)
 }
- logMyAge()
+
+compounCalculate(2000,0.25,20)
+
